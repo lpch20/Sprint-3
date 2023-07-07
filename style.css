@@ -1,0 +1,436 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+/* Se utiliza para quitar las opciones de aumentar y disminuir en el type number */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+label {
+  font-family: "Space Grotesk", sans-serif;
+}
+main {
+  display: flex;
+  flex-direction: row;
+}
+article {
+  display: flex;
+  flex-direction: row;
+}
+img {
+  height: 200px;
+  position: absolute;
+  margin-left: 350px;
+  margin-top: 260px;
+}
+
+#back {
+  position: absolute;
+  margin-top: 520px;
+  margin-left: 450px;
+}
+.color {
+  background-image: url(assets/img/bg-main-desktop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1000px;
+  height: 1000px;
+}
+
+.formulario {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.formulario div {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  border-color: aliceblue;
+  margin-bottom: 40px;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+#fechaVencimiento {
+  display: flex;
+  flex-direction: row;
+}
+
+#first {
+  width: 40px;
+  margin-right: 20px;
+}
+#second {
+  width: 40px;
+  margin-right: 20px;
+}
+#third {
+  width: 165px;
+}
+
+button {
+  height: 36px;
+  background-color: hsl(278, 68%, 11%);
+  color: white;
+  border-radius: 5px;
+}
+
+#tarjeta {
+  position: absolute;
+  height: auto;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: larger;
+  margin-left: 380px;
+  margin-top: 380px;
+}
+#tarjeta::placeholder {
+  color: white;
+  font-family: "Space Grotesk", sans-serif;
+}
+#tarjeta2 {
+  position: absolute;
+  height: auto;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: larger;
+  margin-left: 380px;
+  margin-top: 420px;
+  width: 160px;
+}
+#tarjeta2::placeholder {
+  color: white;
+  font-family: "Space Grotesk", sans-serif;
+}
+#tarjeta3 {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: larger;
+  margin-left: 660px;
+  margin-top: 420px;
+  width: 30px;
+}
+#tarjeta3::placeholder {
+  color: white;
+}
+#tarjeta4 {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: larger;
+  margin-left: 650px;
+  margin-top: 420px;
+  width: 10px;
+}
+#tarjeta4::placeholder {
+  color: white;
+}
+#tarjeta5 {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: larger;
+  margin-left: 625px;
+  margin-top: 420px;
+  width: 24px;
+}
+#tarjeta5::placeholder {
+  color: white;
+}
+#tarjeta6 {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: larger;
+  margin-left: 718px;
+  margin-top: 602px;
+  width: 60px;
+}
+#tarjeta6::placeholder {
+  color: white;
+}
+label {
+  font-size: small;
+  opacity: 0.5;
+}
+
+#logoCard {
+  height: 40px;
+  padding: 30px;
+}
+
+@media (max-width: 1530px) {
+  .color div {
+    margin-left: -180px;
+  }
+  .color div:nth-child(2) {
+    margin-left: -200px;
+  }
+  .color {
+    background-image: url(assets/img/bg-main-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1000px;
+    height: 1000px;
+  }
+  .formulario {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 250px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .color div {
+    margin-left: -220px;
+  }
+  .color div:nth-child(2) {
+    margin-left: -240px;
+  }
+  .color {
+    background-image: url(assets/img/bg-main-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1200px;
+    height: 1000px;
+  }
+
+  .formulario {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 250px;
+  }
+}
+
+@media (max-width: 990px) {
+  .color div {
+    margin-left: -280px;
+  }
+  .color div:nth-child(2) {
+    margin-left: -300px;
+  }
+  .color {
+    background-image: url(assets/img/bg-main-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1200px;
+    height: 1000px;
+  }
+
+  .formulario {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 250px;
+  }
+}
+
+@media (max-width: 899px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+  article {
+    display: flex;
+    flex-direction: column;
+  }
+  .color {
+    background-image: url(assets/img/bg-main-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 400px;
+  }
+  .color div {
+    margin-left: -290px;
+  }
+  .color div:nth-child(2) {
+    margin-left: -300px;
+    margin-top: -375px;
+  }
+  .card-front {
+    position: relative;
+    z-index: 2;
+  }
+  .card-back {
+    position: absolute;
+    z-index: 1;
+  }
+
+  .formulario {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 250px;
+    margin: auto;
+    margin-top: 150px;
+  }
+}
+
+@media (max-width: 590px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+  article {
+    display: flex;
+    flex-direction: column;
+  }
+  .color {
+    background-image: url(assets/img/bg-main-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 300px;
+  }
+  .color div:first-child {
+    margin-left: -340px;
+    margin-top: -100px;
+  }
+
+  #front {
+    width: 250px;
+    height: 200px;
+  }
+  #back {
+    width: 250px;
+    height: 200px;
+  }
+  .color div:nth-child(2) {
+    margin-left: -340px;
+  }
+  .card-front {
+    position: relative;
+    z-index: 2;
+  }
+  .card-back {
+    position: absolute;
+    z-index: 1;
+  }
+
+  .formulario {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 150px;
+  }
+  #tarjeta {
+    position: absolute;
+    height: auto;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: small;
+    margin-left: 380px;
+    margin-top: 380px;
+  }
+  #tarjeta::placeholder {
+    color: white;
+  }
+  #tarjeta2 {
+    position: absolute;
+    height: auto;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: small;
+    margin-left: 380px;
+    margin-top: 420px;
+    width: 160px;
+  }
+  #tarjeta2::placeholder {
+    color: white;
+  }
+  #tarjeta3 {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: small;
+    margin-left: 540px;
+    margin-top: 412px;
+    width: 30px;
+  }
+  #tarjeta3::placeholder {
+    color: white;
+  }
+  #tarjeta4 {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: small;
+    margin-left: 560px;
+    margin-top: 412px;
+    width: 10px;
+  }
+  #tarjeta4::placeholder {
+    color: white;
+  }
+  #tarjeta5 {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: small;
+    margin-left: 570px;
+    margin-top: 412px;
+    width: 30px;
+  }
+  #tarjeta5::placeholder {
+    color: white;
+  }
+  #tarjeta6 {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: small;
+    margin-left: 628px;
+    margin-top: 602px;
+    width: 60px;
+  }
+  #tarjeta6::placeholder {
+    color: white;
+  }
+}
